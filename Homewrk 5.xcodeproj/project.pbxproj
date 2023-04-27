@@ -16,6 +16,8 @@
 		B1CC5D7729F70F4D00F1F7A9 /* Homewrk_5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CC5D7629F70F4D00F1F7A9 /* Homewrk_5Tests.swift */; };
 		B1CC5D8129F70F4D00F1F7A9 /* Homewrk_5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CC5D8029F70F4D00F1F7A9 /* Homewrk_5UITests.swift */; };
 		B1CC5D8329F70F4D00F1F7A9 /* Homewrk_5UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CC5D8229F70F4D00F1F7A9 /* Homewrk_5UITestsLaunchTests.swift */; };
+		B1CC5D9229F711DC00F1F7A9 /* SelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CC5D9129F711DC00F1F7A9 /* SelectionViewController.swift */; };
+		B1CC5D9629F7133500F1F7A9 /* TBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CC5D9529F7133500F1F7A9 /* TBViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		B1CC5D7C29F70F4D00F1F7A9 /* Homewrk 5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Homewrk 5UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1CC5D8029F70F4D00F1F7A9 /* Homewrk_5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homewrk_5UITests.swift; sourceTree = "<group>"; };
 		B1CC5D8229F70F4D00F1F7A9 /* Homewrk_5UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homewrk_5UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B1CC5D9129F711DC00F1F7A9 /* SelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionViewController.swift; sourceTree = "<group>"; };
+		B1CC5D9529F7133500F1F7A9 /* TBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +106,9 @@
 				B1CC5D5F29F70F4C00F1F7A9 /* AppDelegate.swift */,
 				B1CC5D6129F70F4C00F1F7A9 /* SceneDelegate.swift */,
 				B1CC5D6329F70F4C00F1F7A9 /* ViewController.swift */,
+				B1CC5D9129F711DC00F1F7A9 /* SelectionViewController.swift */,
 				B1CC5D6529F70F4C00F1F7A9 /* Main.storyboard */,
+				B1CC5D9529F7133500F1F7A9 /* TBViewController.swift */,
 				B1CC5D6829F70F4D00F1F7A9 /* Assets.xcassets */,
 				B1CC5D6A29F70F4D00F1F7A9 /* LaunchScreen.storyboard */,
 				B1CC5D6D29F70F4D00F1F7A9 /* Info.plist */,
@@ -258,7 +264,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1CC5D9629F7133500F1F7A9 /* TBViewController.swift in Sources */,
 				B1CC5D6429F70F4C00F1F7A9 /* ViewController.swift in Sources */,
+				B1CC5D9229F711DC00F1F7A9 /* SelectionViewController.swift in Sources */,
 				B1CC5D6029F70F4C00F1F7A9 /* AppDelegate.swift in Sources */,
 				B1CC5D6229F70F4C00F1F7A9 /* SceneDelegate.swift in Sources */,
 			);
